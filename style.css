@@ -1,0 +1,65 @@
+body {
+  background-color: #dddddd;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1.5px;
+  border-bottom-style: solid;
+  font-family: "Kaushan Script", cursive;
+  font-size: 2vw;
+}
+
+.container {
+  background-image: url(background.png);
+}
+
+h2 {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1.5px;
+  border-bottom-style: solid;
+  padding-bottom: 1%;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.7vw;
+}
+
+.container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.me {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin-bottom: 100px;
+}
+
+.profContainer {
+  padding: 1rem;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1vw;
+}
+
+.photo1 {
+  max-width: 60%;
+  height: auto;
+  width/***/: auto;
+  text-align: center;
+  padding: 1rem 0 5rem 0;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.5vw;
+}
